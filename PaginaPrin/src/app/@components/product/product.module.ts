@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ProductComponent } from './product.component';
-
+import { NgxPaginationModule, PaginationControlsDirective } from 'ngx-pagination';
 
 
 @NgModule({
@@ -9,8 +9,9 @@ import { ProductComponent } from './product.component';
     ProductComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    NgxPaginationModule
   ], 
-  exports: [ProductComponent]
+  exports: [ProductComponent, NgxPaginationModule]
 })
 export class ProductModule { }

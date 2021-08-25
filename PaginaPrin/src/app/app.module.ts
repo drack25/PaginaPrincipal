@@ -8,12 +8,14 @@ import { HeaderModule } from './@components/header/header.module';
 import { NavbarModule } from './@components/navbar/navbar.module';
 import { ProductModule } from './@components/product/product.module';
 import { ReviewModule } from './@components/review/review.module';
+import {NgxPaginationModule} from 'ngx-pagination';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselComponent } from './@components/carousel/carousel.component';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -34,7 +36,9 @@ import { FormsModule } from '@angular/forms';
     BlogModule,
     FooterModule,
     NgbModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule,
+    NgxPaginationModule
   ],
   providers: [],
   bootstrap: [AppComponent]
