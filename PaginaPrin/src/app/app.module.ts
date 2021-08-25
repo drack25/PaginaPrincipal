@@ -12,10 +12,14 @@ import { ReviewModule } from './@components/review/review.module';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CarouselComponent } from './@components/carousel/carousel.component';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CarouselComponent
     
   ],
   imports: [
@@ -29,7 +33,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     ReviewModule,
     BlogModule,
     FooterModule,
-    NgbModule
+    NgbModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,16 @@
+<div class= "carusel-it">
+<ngb-carousel #carousel [interval]="3000" [pauseOnHover]="pauseOnHover" [pauseOnFocus]="pauseOnFocus" (slide)="onSlide($event)">
+    <ng-template *ngFor= "let  imagec of imagenescar"  ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img class= "imagen-em" src="{{imagec.img}}" alt="Random first slide">
+      </div>
+      <div class="carousel-caption">
+        <h3>{{imagec.name}}</h3>
+        <p>{{imagec.desc}}</p>
+      </div>
+    </ng-template>
+   
+</ngb-carousel>
+</div>
+
+  
