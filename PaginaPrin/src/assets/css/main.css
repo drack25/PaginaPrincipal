@@ -2182,7 +2182,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .section-gap {
-  padding: 120px 0;
+  padding: 80px 0;
 }
 
 .section-title {
@@ -2395,7 +2395,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .video-right {
-  background: url(../img/video-bg.jpg) no-repeat center;
   background-size: cover;
   height: 350px;
   border-radius: 10px;
@@ -2403,7 +2402,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .video-right .overlay-bg {
   border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.78);
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .video-right .play-btn {
@@ -2525,14 +2524,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .footer-area {
-  color: #fff;
+  color: rgb(255, 255, 255);
   padding-top: 220px;
-  background: url(../img/footer-bg.jpg) center;
+  background: url(../img/Footer1.jpg) center;
+  width: 1320px;
+  height: 500px;
   background-size: cover;
 }
 
 .footer-area h6 {
-  color: #fff;
+  color: rgb(255, 255, 255);
   margin-bottom: 25px;
   font-size: 18px;
   font-weight: 600;

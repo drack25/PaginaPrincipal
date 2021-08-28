@@ -38,13 +38,21 @@ export class CarouselComponent implements OnInit {
   }
 
   imagenescar: any[]=[
-    { name: "Imagen 1",
-      img: 'assets/img/b1.png',
-	    desc: 'Holiiiii',
+    { name: "Carrusel 1",
+      img: 'assets/img/Carrusel1.jpg',
+	    desc: 'Carrusel 1',
     },
-    { name: "Imagen 2",
-      img: 'assets/img/b2.jpg',
-	    desc: 'Boooliiiii',
+    { name: "Carrusel 2",
+      img: 'assets/img/Carrusel6.jpg',
+	    desc: 'Carrusel 2',
+    },
+    { name: "Carrusel 3",
+      img: 'assets/img/Carrusel3.jpg',
+	    desc: 'Carrusel 3',
+    },
+    { name: "Carrusel 4",
+      img: 'assets/img/Carrusel4.jpg',
+	    desc: 'Carrusel 4',
     }
   ];
   constructor(private _config:NgbCarouselConfig) {

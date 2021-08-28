@@ -4,7 +4,6 @@ import { AboutModule } from './@components/about/about.module';
 import { BlogModule } from './@components/blog/blog.module';
 import { FooterModule } from './@components/footer/footer.module';
 import { GalleryModule } from './@components/gallery/gallery.module';
-import { HeaderModule } from './@components/header/header.module';
 import { NavbarModule } from './@components/navbar/navbar.module';
 import { ProductModule } from './@components/product/product.module';
 import { ReviewModule } from './@components/review/review.module';
@@ -28,7 +27,6 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     /*AppRoutingModule,*/
     NavbarModule,
-    HeaderModule,
     AboutModule,
     ProductModule,
     GalleryModule,
