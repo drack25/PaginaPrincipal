@@ -85,7 +85,6 @@
 //--------- Start Banner Area -------------//
 
 .banner-area {
-	background:url(../img/header-bg.jpg) center;
 	background-size:cover;
 	.fullscreen {
 		@include media-breakpoint-down (lg) {
@@ -94,7 +93,6 @@
 	}
 
 	@media(max-width:768px){
-		background:url(../img/header-bg.jpg);
 		 background-position: 50% 90% 50% 50%;
 	}
 }

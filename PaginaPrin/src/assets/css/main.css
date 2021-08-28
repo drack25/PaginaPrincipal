@@ -1560,8 +1560,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .primary-checkbox input:checked + label {
-  background: url(../img/elements/primary-check.png) no-repeat center center/cover;
-  border: none;
+   border: none;
 }
 
 .confirm-checkbox {
@@ -1598,7 +1597,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .confirm-checkbox input:checked + label {
-  background: url(../img/elements/success-check.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -1641,7 +1639,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .disabled-checkbox input:checked + label {
-  background: url(../img/elements/disabled-check.png) no-repeat center center/cover;
+
   border: none;
 }
 
@@ -1679,7 +1677,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .primary-radio input:checked + label {
-  background: url(../img/elements/primary-radio.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -1717,7 +1714,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .confirm-radio input:checked + label {
-  background: url(../img/elements/success-radio.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -1760,7 +1756,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .disabled-radio input:checked + label {
-  background: url(../img/elements/disabled-radio.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -2283,8 +2278,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-  background: url(../img/header-bg.jpg) center;
-  background-size: cover;
+   background-size: cover;
 }
 
 @media (max-width: 1199.98px) {
@@ -2295,7 +2289,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 768px) {
   .banner-area {
-    background: url(../img/header-bg.jpg);
     background-position: 50% 90% 50% 50%;
   }
 }
@@ -2524,16 +2517,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .footer-area {
-  color: rgb(255, 255, 255);
-  padding-top: 220px;
+  color: #ffffff;
+  padding-top: 210px;
   background: url(../img/Footer1.jpg) center;
   width: 1320px;
-  height: 500px;
+  height: 600px;
   background-size: cover;
 }
 
 .footer-area h6 {
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   margin-bottom: 25px;
   font-size: 18px;
   font-weight: 600;
