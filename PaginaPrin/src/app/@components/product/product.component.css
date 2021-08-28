@@ -1,3 +1,6 @@
 .my-pagination /deep/ .ngx-pagination .current {
     color: black;
 }
+#texto-pv{
+    font-size: 16px;
+}
