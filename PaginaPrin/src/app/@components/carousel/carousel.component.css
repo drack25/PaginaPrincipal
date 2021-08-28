@@ -1,11 +1,13 @@
 .imagen-em
 {
-    width: 1320px;
+    width: 1240px;
     height: 575px;
     margin-top: 3.5%;
+    padding-left: 60px;
 }
 .carusel-it
 {
     background-color: #ffffff;
+    padding-left: 30px;
 }
 
