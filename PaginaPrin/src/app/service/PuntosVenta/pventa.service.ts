@@ -8,10 +8,10 @@ import { Observable } from 'rxjs';
 })
 export class PventaService {
 
-  private baseURL = "http://localhost:8080/PuntoVenta/";
+  private baseURL = "https://back-productossan.herokuapp.com";
   constructor(private httpClient: HttpClient) { }
 
   getPuntoVentaLista(): Observable<Puntoventa[]>{
-    return this.httpClient.get<Puntoventa[]>(`${this.baseURL}`+'buscarPuntoVenta');
+    return this.httpClient.get<Puntoventa[]>(`${this.baseURL}`+'/PuntoVenta/buscarPuntoVenta');
   }
 }
